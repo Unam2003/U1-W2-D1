@@ -16,42 +16,49 @@ REGOLE
 String: sono parole o caratteri in generale e vengono scritti tra 2 apici
 Number: sono tutti i valori numerici e devono essere scritti senza apici
 Null: è un valore vuoto che annulla o svuota una variabile
-Boolean:  */
+Boolean:  vero o falso */
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
-/* let MyName = "Emanuele"
-console.log(name) */
+/* let myName = "Emanuele"
+console.log(myName); */
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
-/*let numb12 = 12;
+/* let numb12 = 12;
 let numb20 = 20;
-let sum = numb12 + numb20;*/
+let sum = numb12 + numb20;
+console.log(sum) */
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
-/* let Apostoli = 12; */
+/* let apostoli = 12
+   let numeriApostoli = parseInt(apostoli);
+   console.log(numeriApostoli) */
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "myName" già esistente: il tuo cognome.
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-/* MyName = "Piemonte"; */
+/* const MyName = "Piemonte"
+ let MyName = "Emanuele"
+console.log(MyName); // imposibile */
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
 
 /* let x = 12;
-   let sottrazione = 4 - x; */
+let numb4 = 4;
+let diff = 4 - x;
+console.log(diff); */
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -59,4 +66,11 @@ let sum = numb12 + numb20;*/
  EXTRA: verifica che la loro uguaglianza diventi true se entrambe vengono trasformate in lowercase (senza cambiare il valore di name2!).
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+/* let name1 = "john";
+let name2 = "John";
+
+let nomeMinuscolo = name2.toLowerCase();
+
+
+console.log(name1 !== name2);
+console.log(nomeMinuscolo === name1); */
